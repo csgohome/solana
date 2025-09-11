@@ -19,7 +19,7 @@ use blake3;
 
 // 宣告本程式的唯一識別符（Program ID）
 // Declare the unique identifier (Program ID) for this program
-solana_program::declare_id!("CsgojSEAWiq9Ns1hW2Y8mmvKVhcmF9vU5W6fUXjg4uDi");
+solana_program::declare_id!("CSgoqaRA4ckXXDZRfS87hCSPsAuST7KSeyx8okT49cM");
 
 // 定義最大隨機數範圍：1 到 100,000
 // Define the maximum random number range: 1 to 100,000
