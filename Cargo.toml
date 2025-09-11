@@ -1,0 +1,15 @@
+[package]
+name = "csgohome"
+version = "0.1.0"
+edition = "2021"  # ← 改回 2021
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+custom-heap = []
+custom-panic = []
+
+[dependencies]
+blake3 = "1.8.2"
+solana-program = "2.3.0"
